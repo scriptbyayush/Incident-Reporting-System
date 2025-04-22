@@ -187,15 +187,13 @@ export function RecentIncidentsTable() {
                     {formatDate(incident.createdAt)}
                   </TableCell>
                   <TableCell className="text-right space-x-2">
-                    <Button variant="ghost" size="sm" asChild>
-                      <Link href={`/incidents/${incident.id}`}>View</Link>
-                    </Button>
+                    
                     <Button 
                       variant="ghost" 
                       size="sm"
                       onClick={() => assignIncidentMutation.mutate({ id: incident.id, userId: 1 })}
                     >
-                      Assign
+                      Will Assign
                     </Button>
                   </TableCell>
                 </TableRow>

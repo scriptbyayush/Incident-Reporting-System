@@ -21,8 +21,8 @@ export default function Sidebar() {
     { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard, current: location === "/dashboard" },
     { name: "Incidents", href: "/incidents", icon: AlertTriangle, current: location === "/incidents" },
     { name: "Reports", href: "/reports", icon: BarChart3, current: location === "/reports" },
-    { name: "Team", href: "/team", icon: Users, current: location === "/team" },
-    { name: "Settings", href: "/settings", icon: Settings, current: location === "/settings" },
+    // { name: "Team", href: "/team", icon: Users, current: location === "/team" },
+    // { name: "Settings", href: "/settings", icon: Settings, current: location === "/settings" },
   ];
 
   return (

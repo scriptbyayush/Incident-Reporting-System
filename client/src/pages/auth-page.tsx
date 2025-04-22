@@ -93,7 +93,7 @@ export default function AuthPage() {
           <div className="flex justify-center mb-6">
             <AlertCircle className="h-12 w-12 text-primary-600" />
           </div>
-          <h2 className="text-center text-3xl font-bold text-gray-900 dark:text-white">
+          <h2 className="text-center text-3xl font-bold text-red dark:text-white">
             IncidentTrack
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600 dark:text-gray-400">
@@ -259,7 +259,7 @@ export default function AuthPage() {
       </div>
       
       {/* Right Column - Hero/Info Section */}
-      <div className="hidden lg:flex flex-col w-1/2 bg-primary-600 text-white justify-center p-12">
+      <div className="hidden lg:flex flex-col size-lvw bg-primary-600 text-red justify-center p-12">
         <div className="max-w-md mx-auto">
           <h1 className="text-4xl font-bold mb-6">
             Streamlined Incident Management
